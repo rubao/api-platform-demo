@@ -1,0 +1,13 @@
+App\Entity\CustomerOrder:
+    customerOrder{1..100}:
+        __construct: [<firstName()>]
+        lastName: <lastName()>
+        totalPrice: <numberBetween(1000, 50000)>
+        isFinished: <boolean(50)>
+
+App\Entity\CustomerOrderLine:
+    customerOrderLine{1..1000}:
+        articleId: <numberBetween(100, 1000)>
+        price: <numberBetween(100, 3000)>
+        amount: <numberBetween(1, 10)>
+        customerOrder: '@customerOrder<numberBetween(1, 100)>'
