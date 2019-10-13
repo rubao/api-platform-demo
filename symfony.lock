@@ -101,8 +101,47 @@
     "fig/link-util": {
         "version": "1.0.0"
     },
+    "firebase/php-jwt": {
+        "version": "v5.0.0"
+    },
     "fzaninotto/faker": {
         "version": "v1.8.0"
+    },
+    "google/auth": {
+        "version": "v1.6.0"
+    },
+    "google/cloud-core": {
+        "version": "v1.33.1"
+    },
+    "google/cloud-error-reporting": {
+        "version": "v0.15.0"
+    },
+    "google/cloud-logging": {
+        "version": "v1.18.0"
+    },
+    "google/common-protos": {
+        "version": "1.1"
+    },
+    "google/gax": {
+        "version": "1.1.2"
+    },
+    "google/grpc-gcp": {
+        "version": "0.1.4"
+    },
+    "google/protobuf": {
+        "version": "v3.10.0"
+    },
+    "grpc/grpc": {
+        "version": "1.22.0"
+    },
+    "guzzlehttp/guzzle": {
+        "version": "6.3.3"
+    },
+    "guzzlehttp/promises": {
+        "version": "v1.3.1"
+    },
+    "guzzlehttp/psr7": {
+        "version": "1.6.1"
     },
     "hautelook/alice-bundle": {
         "version": "2.1",
@@ -120,6 +159,9 @@
     },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
+    },
+    "monolog/monolog": {
+        "version": "1.25.1"
     },
     "myclabs/deep-copy": {
         "version": "1.9.3"
@@ -176,11 +218,20 @@
     "psr/container": {
         "version": "1.0.0"
     },
+    "psr/http-message": {
+        "version": "1.0.1"
+    },
     "psr/link": {
         "version": "1.0.0"
     },
     "psr/log": {
         "version": "1.1.0"
+    },
+    "ralouphie/getallheaders": {
+        "version": "3.0.3"
+    },
+    "rize/uri-template": {
+        "version": "0.3.2"
     },
     "sebastian/comparator": {
         "version": "3.0.2"

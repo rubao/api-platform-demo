@@ -7,6 +7,8 @@
         "ext-iconv": "*",
         "api-platform/api-pack": "^1.2",
         "doctrine/doctrine-migrations-bundle": "^2.0",
+        "google/cloud-error-reporting": "^0.15.0",
+        "google/cloud-logging": "^1.18",
         "nesbot/carbon": "^2.25",
         "symfony/console": "4.3.*",
         "symfony/dotenv": "4.3.*",
@@ -44,14 +46,14 @@
         "symfony/polyfill-php56": "*"
     },
     "scripts": {
-        "auto-scripts": {
+        "[ $COMPOSER_DEV_MODE -eq 0 ] || auto-scripts": {
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
         },
-        "post-install-cmd": [
+        "[ $COMPOSER_DEV_MODE -eq 0 ] || post-install-cmd": [
             "@auto-scripts"
         ],
-        "post-update-cmd": [
+        "[ $COMPOSER_DEV_MODE -eq 0 ] || post-update-cmd": [
             "@auto-scripts"
         ]
     },

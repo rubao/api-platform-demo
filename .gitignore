@@ -8,4 +8,12 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
+###> ide ###
 /.idea
+###< ide ###
+
+###> gcloud app engine ###
+app.yaml
+.gcloudignore
+cloud_sql_proxy
+###< gcloud app engine ###
